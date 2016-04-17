@@ -2,22 +2,22 @@
 {{> header}}
 <main class="main_linuxsavvy" role="main">
 {{#foreach posts}}
-<article class="article_uber" role="article" itemscope itemtype="http://schema.org/Article">
-<header class="postheader_uber">
-	<time class="date_uber" datetime="{{date format="YYYY-MM-DD"}}" itemprop="datePublished">
-	<h1 class="posttitle_uber" itemprop="headline"><a href="{{{url}}}" rel="bookmark">{{title}}</a></h1>
+<article class="article_inuxsavvy" role="article" itemscope itemtype="http://schema.org/Article">
+<header class="postheader_inuxsavvy">
+	<time class="date_inuxsavvy" datetime="{{date format="YYYY-MM-DD"}}" itemprop="datePublished">
+	<h1 class="posttitle_inuxsavvy" itemprop="headline"><a href="{{{url}}}" rel="bookmark">{{title}}</a></h1>
 </header>
-<div class="postcontent_uber" itemprop="articleBody">
+<div class="postcontent_inuxsavvy" itemprop="articleBody">
 	{{content}}
 </div>
-	<div class="posttags_uber">
+	<div class="posttags_inuxsavvy">
 		{{#if tags}}
 			Tags: {{tags separator=" | "}}
 		{{/if}}
 	</div>
 </article>
 {{/foreach}}
-<div class="pagination_uber">
+<div class="pagination_inuxsavvy">
 	{{#if pagination}}
 		{{{pagination}}}
 	{{/if}}
